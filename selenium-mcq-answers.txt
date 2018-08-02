@@ -1,0 +1,248 @@
+1. Selenium IDE is supported by which browser?
+
+  A. Internet Explorer
+  B. Mozilla Firefox
+  C. Google Chrome
+  D. Safari
+  E. All Of Above
+ Ans-B
+
+2. In webdriver, which of the following is a valid select statement that selects a value from a drop down element?
+
+  A. selectByIndex()
+  B. selectByVisibleText()
+  C. selectByValue()
+  D. all above
+  E. none of above
+Ans-D
+
+
+3. In webdriver, what is the method that counts the number of elements?
+
+  A. driver.getCountOfElements()
+  B. driver.findElement(By.id("search")).getCount()
+  C. driver.findElements(By.id("search")).size()
+  D. driver.findElements(By.id("search")).length()
+
+Ans-c
+
+4.In webdriver, which command takes you forward by one page on the browser’s history?
+
+  A. navigate.forward()
+  B. Navigate.forward()
+  C. navigate().forward()
+  D. Navigate.forward
+  E. navigate_forward()
+Ans-C
+
+5. In webdriver, which method closes the open browser?
+
+  A. quit()
+  B. terminate()
+  C. shutdown()
+  D. close()
+Ans-D
+
+
+6. In webdriver, selectAllOptions() is a valid command.
+
+  A. True
+  B. False
+Ans-B
+
+7. In WebDriver, which command can be used to enter values onto text boxes? Select the best answer.
+
+  A. type()
+  B. selenium.type()
+  C. driver.type("text")
+  D. sendKeys()
+  E. sendKeys("text")
+
+Ans-E
+
+8. Which WebDriver method is used to change focus to an alert, a frame or a browser window?
+
+  A. changeFocus()
+  B. setFocus()
+  C. switchTo()
+  D. changeTo()
+
+Ans-C
+
+9. In webdriver, which of the following commands retrieves the text of a html element?
+
+  A. selectText()
+  B. getText()
+  C. getElementText()
+  D. getText(WebElement)
+Ans-B
+
+10. In webdriver, which methods navigates to a URL?
+
+  A. goToUrl("url")
+  B. navigate.to("url")
+  C. getUrl("url")
+  D. get("url")
+
+Ans-D
+
+11. The test language usually used in Selenium is ________________.
+
+   A PHP
+   B Python
+   C JavaScript
+   D None of the above
+
+Ans - JS
+
+
+12.  The term AJAX expands to ________.
+
+  A Asynchronous Java and XML
+  B Asynchronous JavaScript and XML
+  C Accumulated Java and XML
+  D None of the above
+
+Ans - B
+
+
+13.  Selenium tests _____________.
+
+  A DOS applications 
+  B Browser-based applications
+  C GUI applications
+  D None of the above
+
+Ans - B
+
+14.  Which selenium command check whether specific text exists somewhere on the page ?
+
+ A verifyTextPresent
+ B verifyTextPresent
+ C CheckTextPresent
+ D VerifyPresentText
+
+Ans - B
+
+
+15.  Select the component which is NOT part of Selenium suite.
+
+ A Selenium IDE
+ B Selenium RC
+ C SeleniumGrid
+ D Selenium Web
+ 
+Ans - D
+
+16. Question
+What is the output of the following statement?
+Name 1
+Name 2
+driver.findElement(By.cssSelector(“#name”));
+
+ A) Output is Name 1
+ B) Output is Name 2
+ C) CSS selector syntax is incorrect
+ 
+Ans - A
+
+
+17. Question
+In webdriver, which of the following is a valid select statement that selects a value from a drop down element?
+ 
+ A)	selectByIndex()
+ B)	 selectByVisibleText()
+ C)	selectByValue()
+ D)	all above
+ E)	none of above
+ 
+Ans - D
+
+18 . The Selenium RC is used
+a.	To run your test against different browsers (except HtmlUnit) on different operating systems.
+b.	To create tests with little or no prior knowledge in programming.
+c.	To test a web application against Firefox only.
+d.	To run a huge test suite, that can be executed on multiple machines.
+
+Ans- a
+
+19. Select the name which is NOT the type of the locaters.
+a.	ID
+b.	Name
+c.	Password
+d.	Link Text
+
+Ans- c
+
+20. The Selenium can
+a.	access controls within the desktop
+b.	both web and desktop applications
+c.	only test web applications
+
+Ans- c
+
+21. Select the method which selects the option at the given index.
+a.	selectByIndex()
+b.	selectIndex()
+c.	selectedByIndex()
+d.	selectByIndexes()
+
+Ans- a
+
+22. Implicit wait time is applied to all the elements in your script and explicit wait time is applied only for particular specified elements.
+
+A)True
+B)False
+
+Ans:-A
+
+23. The Web driver is used
+
+A. To execute tests on the HtmlUnit browser.
+B. To design a test using Selenese
+C. To quickly create tests
+D. To test a web application against Firefox only.
+
+Ans: A
+
+24. Which Navigate command takes you forward by one page on the browser’s history in Web driver Selenium.
+
+A. navigate.forward()
+B. navigate().forward()
+C. navigate()_forward()
+D. navigate_forword()
+
+Ans: B
+
+25. Which method is used when you want to verify whether a certain check box, radio button, or option in a drop-down box is selected in Web driver Selenium
+
+A. is_Selected()
+B. isSelect()
+C. isSelected()
+D. is_Select()
+
+Ans: C
+
+26. Which is odd one out in these locators?
+
+A.ID
+B.XPath
+C.CSS Selector
+D.Pattern Matching
+
+Ans: D
+
+27. Data Driven Testing (DDT) is a methodology in automated testing to test only a single set of Test Data.
+A. True
+B. False
+
+
+Ans:- False 
+
+28. Select the following true statements:
+ A. webDriver.Quit() - Closes the browser windows
+ B. webDriver.Quit() - Calls Dispose()
+ C. webDriver.Close() - Closes the focused browser window
+ D. webDriver.Close() - Closes all browser windows
+
+Ans - B
