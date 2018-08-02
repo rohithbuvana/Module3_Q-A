@@ -1,0 +1,217 @@
+1) Which file extension do all Gherkin files have?
+
+A. closure 
+B. feature 
+C. doc 
+D. com
+
+
+
+
+
+
+Ans: B
+
+
+2) Which sign is used in Gherkin's syntax? 
+
+A. # 
+B. $ 
+C. % 
+D. &
+
+
+
+
+Ans: B
+
+3) What does Gherkin do?
+
+
+A. Checks reliability of computer codes 
+B. Translates computer codes for people to understand them 
+C. Writes code in a computer-readable way
+D. Provides simple documentation of the code under test
+
+
+
+
+Ans : D
+
+4) What is the subdivision of Gherkin's features? 
+
+
+A. Steps 
+B. Pages
+C. Scenarios 
+D. Books
+
+
+
+
+Ans: C
+
+5) How many parts does a Gherkin feature have? 
+
+A. 3 
+B. 5 
+C. 2 
+D. 10
+
+
+
+
+Ans: A
+
+
+6) Which symbol is used for parameterization in Gherkins?
+
+a) ^
+b) *
+c) |
+d) $
+
+
+
+
+
+Ans : c
+
+7) Consider the following feature file.
+
+Feature: I want to calculate something
+
+  Scenario: Add two numbers
+    Given I have entered 50 into the calculator
+    And I have entered 70 into the calculator
+    And I want to add 80
+    When I press add
+    Then the result should be 200 on the screen
+
+What would be the output if we write a step definition file for this feature file?
+
+
+
+a) All test cases passes.
+b) It gives exception like DuplicationStepDefinitionException.
+c) Only one test cases passes.
+d) None of the above
+
+
+
+
+
+Ans : b
+
+8) What does a feature file contain?
+
+
+A. A feature
+B. A User scenario
+C. A <Given>,<When>,<Then> clauses
+D. All of the above
+
+
+
+
+
+Ans: D
+
+
+9) Match the following
+
+1. Before		A.executes before the each step execution.
+2. After		B.executes after the each step execution.
+3. BeforeStep		C.executes after the feature file execution.
+4. AfterStep		D.executes before the feature file execution.
+
+
+
+
+
+Ans: 1-D, 2-C, 3-A, 4-B
+
+
+
+10) What is required in a User Story?
+
+A. Role
+B. Task
+C. Benefit
+D. All of the above
+
+
+
+
+
+Ans: D
+
+
+11) Which annotation is used to provide a link between feature file and step definition file?
+
+A. @RunWith
+B. @CucumberOptions
+C. Both A and B
+D. None
+
+
+
+
+
+Ans: C
+
+
+12)Gherkin is primarily used to write ________ tests which can later be used as project documentation. 
+
+a. Systematic 
+b. Structured 
+c. Unstructured 
+d. None
+
+
+
+
+
+Ans: b
+
+
+13) ________ keyword is used to define steps which are common to all the tests in the feature file.
+
+
+a. But 
+b. And 
+c. Scenario 
+d. Background 
+
+
+
+
+
+Ans: d
+
+
+14) __________ keyword is used to add negative type comments.
+
+a. And 
+b. Given 
+c. But 
+d. Feature
+
+
+
+
+
+Ans: c
+
+15) What is the syntax of Gherkin ?
+
+a. Given, Feature, Scenario, When
+b. Scenario, Feature, Then, Given
+c. Feature, Scenario, Given, When, Then
+d. None
+
+
+
+
+
+Answer: c
