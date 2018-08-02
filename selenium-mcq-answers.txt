@@ -26,7 +26,7 @@ Ans-D
 
 Ans-c
 
-4.In webdriver, which command takes you forward by one page on the browserís history?
+4.In webdriver, which command takes you forward by one page on the browser‚Äôs history?
 
   A. navigate.forward()
   B. Navigate.forward()
@@ -136,9 +136,12 @@ Ans - D
 
 16. Question
 What is the output of the following statement?
-Name 1
-Name 2
-driver.findElement(By.cssSelector(ì#nameî));
+<div>
+<span id="name">Name1</span>
+<span class="name">Name2</span>
+</div>
+
+driver.findElement(By.cssSelector(‚Äú#name‚Äù));
 
  A) Output is Name 1
  B) Output is Name 2
@@ -205,7 +208,7 @@ D. To test a web application against Firefox only.
 
 Ans: A
 
-24. Which Navigate command takes you forward by one page on the browserís history in Web driver Selenium.
+24. Which Navigate command takes you forward by one page on the browser‚Äôs history in Web driver Selenium.
 
 A. navigate.forward()
 B. navigate().forward()
